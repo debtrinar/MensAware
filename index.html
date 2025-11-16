@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MensaAware - Embrace Your Cycle</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#e8306e",
+              "secondary": "#fdf2f8",
+              "background-light": "#f8f6f6",
+              "background-dark": "#211116",
+              "surface-light": "#ffffff",
+              "surface-dark": "#2a161b",
+              "text-light-primary": "#181113",
+              "text-dark-primary": "#f8f6f6",
+              "text-light-secondary": "#5b4e52",
+              "text-dark-secondary": "#b0a8ac",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light-primary dark:text-text-dark-primary">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 dark:border-primary/30 px-6 md:px-10 py-3 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<a class="flex items-center gap-3 text-text-light-primary dark:text-text-dark-primary" href="#">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">MensaAware</h2>
+</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium leading-normal text-text-light-secondary dark:text-text-dark-secondary hover:text-primary dark:hover:text-primary transition-colors" href="#about">About Us</a>
+<a class="text-sm font-medium leading-normal text-text-light-secondary dark:text-text-dark-secondary hover:text-primary dark:hover:text-primary transition-colors" href="#initiatives">Our Initiatives</a>
+<a class="text-sm font-medium leading-normal text-text-light-secondary dark:text-text-dark-secondary hover:text-primary dark:hover:text-primary transition-colors" href="#impact">Impact</a>
+<a class="text-sm font-medium leading-normal text-text-light-secondary dark:text-text-dark-secondary hover:text-primary dark:hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+</div>
+</header>
+<main class="flex-grow">
+<section class="relative">
+<div class="flex min-h-[calc(100vh-65px)] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center text-center p-6" data-alt="Abstract background with soft, flowing pink and white shapes evoking a sense of calm and nature." style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBdh23AlLG50AVsmdcabeJWvkADIoOTZvWEBTLBhJyIt8TzjUeDkIpJehSKOWb4HSAQff7pIFKh5LZBlWm7dVPjN3AoqjJxFGqWZjaW_nK4vUc1ZV5axzsv-jvGxWZ4SSnkMwg1HzuYDQQR6Eid4yWENZ20KK1NGF8NUwynLUHH-_eXY78oKbAdYMrTEemQ1YJ4iny5Fqyk-xmaXKXDfFH3DSxvg2LAI4JEejFcIuWZBvOZkzaApZDMMPhBN2QeX4WiUcL8CeFIfA");'>
+<div class="flex flex-col gap-4 max-w-3xl">
+<h1 class="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em]">
+                            Breaking Barriers, Building Futures
+                        </h1>
+<p class="text-white/90 text-base md:text-lg font-normal leading-normal">
+                            Championing menstrual health and hygiene awareness to empower individuals and create a world free from period poverty and stigma.
+                        </p>
+</section>
+<div class="px-6 md:px-10 lg:px-20 xl:px-40 py-16 lg:py-24 space-y-20 lg:space-y-28">
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center" id="about">
+<div class="w-full overflow-hidden aspect-square rounded-xl">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" data-alt="An artistic illustration of the female reproductive system with floral elements." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwDv1F95AaKBrGFC1XBsLM5SGRhMdKSVNmNFB4Z4V0pHfkTtZGdTViGkMgv-hhSdwrM6gcL7hLyBpa05ewMXPjh2H6QrpV08qaOS9i15mDntpzSrokYJv3l0Iq-dSm0q215dYWxCkXmSqocrstb8wbzhL8Bjj2EEYoSMuXGgLE8qdgi4pcYAU75eyXPag2Zd9-0RPrqbdoF4pnlCYvAYXZ86fwvHVBwuUqK1aaXtMWuKeFP5u7KocmgrAk9O0QCLhvJ62IQ2_tDA");'></div>
+</div>
+<div>
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">About Us: Our Mission</h2>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-base md:text-lg font-normal leading-normal mt-4">
+                        MensaAware is dedicated to fostering self-awareness around menstrual health and hygiene. We believe knowledge is the first step towards empowerment, well-being, and dismantling long-held taboos.
+                    </p>
+<div class="mt-8">
+<h3 class="text-2xl md:text-3xl font-bold leading-tight tracking-[-0.015em]">What We Do</h3>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-base font-normal leading-normal mt-4">
+                        We provide accessible education, bust myths with scientific facts, promote eco-friendly menstrual products, and create supportive communities to ensure everyone can manage their menstruation with dignity.
+                    </p>
+</div>
+</div>
+</section>
+<section class="text-center max-w-5xl mx-auto" id="initiatives">
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Our Initiatives &amp; Global Goals</h2>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-base md:text-lg font-normal leading-normal mt-4">
+                        Our work directly contributes to the UN's Sustainable Development Goals (SDGs), fostering a healthier, more equitable world for all.
+                    </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12">
+<div class="flex flex-col items-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl shadow-sm">
+<img class="h-20 object-contain" data-alt="SDG 3: Good Health and Well-being logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1zFHZaZ0A8G72PoQNNko_IP6VEx9Ck-zdO8loutkoFGWKJ6DrmZTGSpVa4GmLtympBiTkBY5UFQ6TpD4I7Lp9xbs7GxQ7qNGnaYEWzeZMj19IELdMqkY-yAEGo82bRpv8n-IbKjfwh7UXdJQsRfeP82KRQAEIGQVWQFBC9HOdvePQjdrHQOZiNxFNIJzEvyqeCvXfT6TFga7YvhVeUacNqDSUbdPJshFxhzTlpOUb_d0xczPZPJC47S1zzuKHNy7hyWrFoOY_Ow"/>
+<h3 class="font-bold text-lg mt-4">Good Health &amp; Well-being</h3>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2">Ensuring access to menstrual health information and products is fundamental to physical and mental well-being.</p>
+</div>
+<div class="flex flex-col items-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl shadow-sm">
+<img class="h-20 object-contain" data-alt="SDG 4: Quality Education logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAl1QBVDoLowBOe1mQQpXFObVKTmEkq_nk4hjvMBXCyqrpDJUdnn8TWUIaEoPTRCkDNFk3O06wbodoXVhw2Tbp9bFDcI0Bc8gqmiaz7aMrP1grnaKMaadrbSQ2r4GYv2L4E-rItoxq6-BqZFlhRpKIq45x3ildSYj0YIs2vWoMrv5LDQ0gsWCHxs8Mn2mj727gvXOzu52eV1LZytc4Q-uctJZ0M7_Ybf_7Y7djnwkN99o2eSmG3-FEWX_Kbrtzfl19H32_1ZBmf8Q"/>
+<h3 class="font-bold text-lg mt-4">Quality Education</h3>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2">Tackling period poverty and stigma helps keep girls in school, ensuring they have equal opportunities to learn and thrive.</p>
+</div>
+<div class="flex flex-col items-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl shadow-sm">
+<img class="h-20 object-contain" data-alt="SDG 5: Gender Equality logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaMxJBrGPEZ89NempFd2vYmoYRb7bCq4JdAqsuXeGXMa67LFZ5ImupBznjNmvmVQ1blRZqzFW0Ra9qmKOz6HqfJOWAWUzjW75E4jLcW_ZJmUIzKBFJ7GbNzMtAKyjz5uVoi4n9dTVAve90w5BLXL3gXbTKG7iXT48YAqCiKvleliGrRbnRqnMeF73OlFPXJbQh_Q2Oe7A3NJKvJm8ZNqQ4rRizNu39whqsnkP7E18YIasXPsGOdjMlaIVE2nkXyuaHNi7l2Sfy9g"/>
+<h3 class="font-bold text-lg mt-4">Gender Equality</h3>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2">Menstrual health is a key component of gender equality, empowering women and girls to participate fully in society.</p>
+</div>
+</div>
+</section>
+<section class="max-w-4xl mx-auto" id="myths">
+<div class="text-center">
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Myths vs. Facts</h2>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-base md:text-lg font-normal leading-normal mt-4">
+                            Let's debunk common myths with science-backed facts. Click on a myth to reveal the truth.
+                        </p>
+</div>
+<div class="space-y-4 mt-12">
+<details class="group bg-surface-light dark:bg-surface-dark p-6 rounded-xl cursor-pointer">
+<summary class="flex items-center justify-between font-bold text-lg list-none hover:text-primary transition-colors">
+                                Myth: You can't get pregnant on your period.
+                                <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 text-text-light-secondary dark:text-text-dark-secondary">
+                                Fact: While unlikely, it is possible. Sperm can survive in the reproductive tract for up to five days, so if you have a shorter cycle and ovulate soon after your period, conception could occur.
+                            </p>
+</details>
+<details class="group bg-surface-light dark:bg-surface-dark p-6 rounded-xl cursor-pointer">
+<summary class="flex items-center justify-between font-bold text-lg list-none hover:text-primary transition-colors">
+                                Myth: Period syncing with friends is a real thing.
+                                <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 text-text-light-secondary dark:text-text-dark-secondary">
+                                Fact: Despite popular belief, there's no scientific evidence to support this. Studies have shown that any perceived syncing is likely due to mathematical coincidence and the natural variability of menstrual cycles.
+                            </p>
+</details>
+<details class="group bg-surface-light dark:bg-surface-dark p-6 rounded-xl cursor-pointer">
+<summary class="flex items-center justify-between font-bold text-lg list-none hover:text-primary transition-colors">
+                                Myth: Exercising on your period is harmful.
+                                <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 text-text-light-secondary dark:text-text-dark-secondary">
+                                Fact: Quite the opposite! Gentle exercise can actually help alleviate cramps and boost your mood by releasing endorphins. It's important to listen to your body and choose activities that feel right for you.
+                            </p>
+</details>
+</div>
+</section>
+<section id="impact">
+<div class="text-center max-w-4xl mx-auto">
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Our Impact in Numbers</h2>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-base md:text-lg font-normal leading-normal mt-4">
+                        We are proud of the change we are driving. Here’s a snapshot of our progress.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-12">
+<div class="bg-secondary dark:bg-surface-dark/50 p-8 rounded-xl">
+<h3 class="text-4xl md:text-5xl font-extrabold text-primary">10k+</h3>
+<p class="mt-2 font-semibold">Individuals Educated</p>
+</div>
+<div class="bg-secondary dark:bg-surface-dark/50 p-8 rounded-xl">
+<h3 class="text-4xl md:text-5xl font-extrabold text-primary">50+</h3>
+<p class="mt-2 font-semibold">Communities Reached</p>
+</div>
+<div class="bg-secondary dark:bg-surface-dark/50 p-8 rounded-xl">
+<h3 class="text-4xl md:text-5xl font-extrabold text-primary">5k+</h3>
+<p class="mt-2 font-semibold">Eco-Kits Distributed</p>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-xl shadow-sm">
+<p class="text-text-light-secondary dark:text-text-dark-secondary italic">"The workshop was eye-opening. I finally understand my body better and feel confident talking about my period. Thank you, MensaAware!"</p>
+<div class="flex items-center mt-4">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of a smiling young woman named Priya." src="https://lh3.googleusercontent.com/aida-public/AB6AXuABqbvNlzFJdv_fCzgRaDxmqwLyAVlhv5z7XgFonCbV52NhXW5QY85yIxikhwUrvqaYadJZZ5JVGZnCLLoaSvB9sY0RVlTTVeVhpE9-34t8Ec9DbdZq0BJ-Lw5GmmiWQ978sITJSLTIL-FS0bTCv2bWCwXV5WxABWHopBJA9AoEaa8aHYgjkUeh0jmcl1g6m7c_hgUklK20cAWoeAjipiF_-ygK72QTVqBAgz3sjl69zKPKiwZ-8BS1hp5z-t7oYT0Y992MddcdFw"/>
+<div class="ml-4">
+<p class="font-bold">Priya S.</p>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary">Workshop Participant</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-xl shadow-sm">
+<p class="text-text-light-secondary dark:text-text-dark-secondary italic">"Access to reusable pads has changed my life. I no longer have to miss school. I'm so grateful for the support."</p>
+<div class="flex items-center mt-4">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of a teenage girl named Aisha." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC439ex7H_OeWeiOBMH--dNyZEBDD_glfld0MO7Gq4ry0WKXK976GfVjLQweBIAOIu3BWg4EIhXI6NaXeFkHwK5I3fG0-7Uv8SlmoyXLnguJKIz-Q8tH4Nmgh0z-6Ylhl6KbNVqsXXYw3t5liRjULbupxUDAiNLkvuqp8PzLOpBM3CmZhaLLLhTj03qZAMxoOPSjkD0_625uf7gxWkwyUDqC0u-BIjni1uuvRzJRYfugtwARIUMdvKfCZRer5PL_3ZL88VrOLZ3XQ"/>
+<div class="ml-4">
+<p class="font-bold">Aisha K.</p>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary">Student</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-5xl mx-auto" id="products">
+<div class="text-center">
+    <h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Eco-Friendly Choices</h2>
+    <p class="text-text-light-secondary dark:text-text-dark-secondary text-base md:text-lg font-normal leading-normal mt-4">
+        Explore sustainable menstrual products that are better for your body and the planet.
+    </p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+
+<!-- Menstrual Cups -->
+<a href="cups.html" class="bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm flex flex-col block">
+    <div class="w-full aspect-square bg-center bg-no-repeat bg-cover"
+        data-alt="A collection of colorful menstrual cups arranged neatly."
+        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPoMRSITB2vRp_pLWD2jreRrDA3ZCufeap5DNPb7hIkZnBS5iBE_mrmWsKuyVt4lSfbP8FM680XbmaMCyZmeEJXQi92dAHH1jI_0hAM1UVaZvwEoxwyrpMYaUPnddHeWS8iXBFzfFAmy9IckBJL9nYIPlriFaN2z8OTFVEgavHbd0tpVaDKLNEpdIyGHmQGiFVyNFWk3dWD6xzAYdkj4v13S9xk009ahjYGlRBpxHVkYZR33F58NBvLssCuSUUVVJBWjHDQcMSLQ");'>
+    </div>
+    <div class="p-6 flex-grow flex flex-col">
+        <h3 class="font-bold text-xl">Menstrual Cups</h3>
+        <p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2 flex-grow">
+            A reusable, bell-shaped cup made from medical-grade silicone that collects menstrual fluid. Can be worn for up to 12 hours.
+        </p>
+
+        <!-- Pink Learn More (no underline) -->
+        <span class="text-primary font-semibold mt-4">Learn More</span>
+    </div>
+</a>
+
+<!-- Reusable Pads -->
+<a href="pads.html" class="bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm flex flex-col block">
+    <div class="w-full aspect-square bg-center bg-no-repeat bg-cover"
+        data-alt="Folded reusable cloth pads with various patterns."
+        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBT-8RU43_O91EEoZJIo5fr0nUycE2gSamD3yM2tFV9rb8Dr_aOVqLLhjxvch73-uC3IKVJEoLnd8vRe3XWwfNgQZJcMpMPKwhsjNpdV24xhQZBkRvhoK43EY9t97y4-O5KWCdABtwNNw7l30rTTI2lHLI7xPa91zMQGKN6NoT0VS2I24r0wX6Xs0vLFHmqtcSDjTt65RkoX_WRA8c8n2uyex7ti8GtVc6X5u5lksJ6sdJ1r_vrak8aW4r6flUXaRRH6oL4_Crm7A");'>
+    </div>
+    <div class="p-6 flex-grow flex flex-col">
+        <h3 class="font-bold text-xl">Reusable Pads</h3>
+        <p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2 flex-grow">
+            Cloth pads that can be washed and reused for years. They come in various sizes and absorbencies, offering a comfortable alternative.
+        </p>
+
+        <!-- Pink Learn More (no underline) -->
+        <span class="text-primary font-semibold mt-4">Learn More</span>
+    </div>
+</a>
+
+<!-- Period Underwear -->
+<a href="underwear.html" class="bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm flex flex-col block">
+    <div class="w-full aspect-square bg-center bg-no-repeat bg-cover"
+        data-alt="A pair of black period-proof underwear displayed on a clean surface."
+        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCnpiG0DSytU8mTJ5RUQWDMziPTLD_LhziB4f7uqhXxpD0-PH8rHziArpa2UijgrCm0TPzo4x7J6Z8K20Jc1CQLSuhJpeASDq9vS9lw5ahGO_71EA4qwXgMW1LSmUdppCh4JCxe0h5Jtvfi5FfX-t9YVbLXJxd-vfeM7k0rVT6m80ksl5zhw71sghVhdRsKE4W63uwV2QVOU32nS2kdWIkn0FDY0RKS5e-L-7v1ZAs_KSLPq3Z9y_9JSEWgfGytlzVZwtkcBGsyJw");'>
+    </div>
+    <div class="p-6 flex-grow flex flex-col">
+        <h3 class="font-bold text-xl">Period Underwear</h3>
+        <p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2 flex-grow">
+            Absorbent underwear designed to be worn on its own or as a backup. Looks and feels like regular underwear but with built-in protection.
+        </p>
+
+        <!-- Pink Learn More (no underline) -->
+        <span class="text-primary font-semibold mt-4">Learn More</span>
+    </div>
+</a>
+
+</div>
+
+</section>
+</div>
+</main>
+<footer class="bg-surface-light dark:bg-surface-dark border-t border-primary/20 dark:border-primary/30" id="contact">
+<div class="max-w-7xl mx-auto px-6 md:px-10 py-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+<div class="flex flex-col items-center md:items-start">
+<a class="flex items-center gap-3 text-text-light-primary dark:text-text-dark-primary" href="#">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold">MensaAware</h2>
+</a>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary mt-2 max-w-xs">Empowering through knowledge and sustainable choices.</p>
+</div>
+<div>
+<h4 class="font-bold mb-4">Quick Links</h4>
+<ul class="space-y-2 text-sm text-text-light-secondary dark:text-text-dark-secondary">
+<li><a class="hover:text-primary" href="#about">About Us</a></li>
+<li><a class="hover:text-primary" href="#initiatives">Our Initiatives</a></li>
+<li><a class="hover:text-primary" href="#impact">Impact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4">Contact Us</h4>
+<p class="text-sm text-text-light-secondary dark:text-text-dark-secondary">contact@mensaaware.com</p>
+<div class="flex justify-center md:justify-start gap-4 mt-4 text-text-light-secondary dark:text-text-dark-secondary">
+<a class="hover:text-primary" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44c0-.795-.645-1.44-1.441-1.44z"></path></svg>
+</a>
+<a class="hover:text-primary" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.323-1.325z"></path></svg>
+</a>
+<a class="hover:text-primary" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616v.064c0 2.299 1.634 4.218 3.803 4.659-.623.169-1.282.233-1.954.233-.299 0-.588-.028-.875-.083.618 1.924 2.444 3.261 4.6 3.303-1.748 1.372-3.853 2.13-6.191 2.13-.404 0-.802-.023-1.195-.07 2.259 1.449 4.933 2.305 7.794 2.305 9.22 0 14.39-7.551 14.12-14.492.973-.702 1.782-1.581 2.433-2.528z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="text-center text-xs text-text-light-secondary dark:text-text-dark-secondary mt-12 border-t border-primary/10 dark:border-primary/20 pt-6">
+                    © 2025 MensaAware. All Rights Reserved.
+                </div>
+</div>
+</footer>
+<a aria-label="Back to top" class="fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg hover:opacity-90 transition-opacity" href="#">
+<span class="material-symbols-outlined">arrow_upward</span>
+</a>
+</div>
+</body></html>

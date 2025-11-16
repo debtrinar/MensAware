@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MensAware | Menstrual Cup Guide</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#e8306e",
+              "background-light": "#f8f6f6",
+              "background-dark": "#211116",
+              "pink-light": "#FADADD",
+              "peach-light": "#FFE5D9",
+              "beige-light": "#F9F1E7",
+              "accent-coral": "#FF6B6B",
+              "content-light": "#181113",
+              "content-dark": "#f8f6f6",
+              "subtle-light": "#666",
+              "subtle-dark": "#999",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: { DEFAULT: "0.5rem", lg: "1rem", xl: "1.5rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-content-light dark:text-content-dark">
+<div class="relative flex w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 bg-background-light/80 px-4 py-3 backdrop-blur-sm dark:bg-background-dark/80 sm:px-10 md:px-20 lg:px-40">
+<div class="flex items-center gap-4 text-primary">
+<div class="size-6">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em] text-content-light dark:text-content-dark">MensAware</h2>
+</div>
+</header>
+<main class="flex flex-1 flex-col items-center">
+<div class="flex w-full max-w-[960px] flex-col px-4">
+<section class="py-16 sm:py-24">
+<div class="flex flex-col-reverse gap-8 @container lg:flex-row lg:items-center">
+<div class="flex flex-col gap-6 text-center lg:w-1/2 lg:text-left">
+<h1 class="text-4xl font-black leading-tight tracking-[-0.033em] sm:text-5xl">Everything You Need to Know About Menstrual Cups</h1>
+<h2 class="text-base font-normal leading-normal sm:text-lg">Discover a healthier, more sustainable, and cost-effective period solution. Welcome to the future of menstrual care.</h2>
+</div>
+<div class="w-full lg:w-1/2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl" data-alt="A pink menstrual cup held between two fingers against a light pink background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAJk6ckAjHO2144aTiuqSC8cbGQXGURjj0z2GASy8TZX3E8VDyhyIegpkyFlzfSJj7wWTpR3qLM4P9gcoHFPnNJgLVB0qGKuYSj2AtbvYSYv5i9FBvHGsj9J5atf2qPSp0IpE5qP7nDRZL4Ov51vX9UoNjzGw4kPvYVNX2whB-_xS_gEDH2yGUK3CjvRj2nVb10dkrbyZufey-TgNVHmJoGRVk7tsB93QacBxQml4TB0RHlfCftUH6FGLdRlJ84AjYNBjq1CmRZQ');"></div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24">
+<div class="flex flex-col items-center gap-8 md:flex-row">
+<div class="w-full md:w-1/2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl bg-peach-light" data-alt="Two different sizes of menstrual cups and their cotton storage bags on a beige surface." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCOxHMXBWU3v3b2d-3uVqgusQ1Lpa4nqSzOHpwbNFJRmowKoGzlc-Og8J-pt6Ui2O2N5msSCUkA8uh9hnLQrddyrqWs85Am4o7QmS-8MsnLD93AaKkHodAf2GXYJzVEmirwYm3ZlvFzB5yMeJPASCSZp4CFGV9TNx7YJI67J5fcQGYgGzAdXGB1_PvZcXaE2_TM2ZvDrXZkFvXTQ14Y03Lc4U7Gdb4jYHOb2vh4bFEEpSGZIK68Mid2xafrC0BviQnrGB3wlRZNbg')"></div>
+</div>
+<div class="w-full md:w-1/2">
+<h2 class="text-3xl font-bold leading-tight tracking-[-0.015em] pb-4 text-accent-coral">What is a Menstrual Cup?</h2>
+<p class="text-base font-normal leading-relaxed">A menstrual cup is a reusable, bell-shaped feminine hygiene product. It's made from flexible medical-grade silicone and is worn inside the vagina during menstruation to collect, rather than absorb, menstrual fluid. Unlike tampons or pads, a single cup can be reused for up to 10 years, making it an incredibly eco-friendly and cost-effective alternative.</p>
+</div>
+</div>
+</section>
+<section class="py-16 text-center sm:py-24" id="benefits">
+<h2 class="text-3xl font-bold leading-tight tracking-[-0.015em] pb-12 text-accent-coral">The Benefits of Switching</h2>
+<div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+<div class="flex flex-col items-center gap-4">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-pink-light">
+<span class="material-symbols-outlined text-4xl text-primary">spa</span>
+</div>
+<h3 class="text-lg font-bold">Body-Safe</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Made from 100% medical-grade silicone, free from plastics, BPA, and harsh chemicals.</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-pink-light">
+<span class="material-symbols-outlined text-4xl text-primary">savings</span>
+</div>
+<h3 class="text-lg font-bold">Cost-Effective</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Save hundreds of dollars over years by ditching disposables. One cup lasts a decade.</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-pink-light">
+<span class="material-symbols-outlined text-4xl text-primary">eco</span>
+</div>
+<h3 class="text-lg font-bold">Eco-Friendly</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Dramatically reduce your period-related waste and environmental footprint.</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-pink-light">
+<span class="material-symbols-outlined text-4xl text-primary">schedule</span>
+</div>
+<h3 class="text-lg font-bold">Long-Lasting Wear</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Wear for up to 12 hours, giving you more freedom during your day and a better night's sleep.</p>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24">
+<div class="flex flex-col items-center gap-12">
+<h2 class="text-3xl font-bold leading-tight tracking-[-0.015em] text-accent-coral">How to Use Your Cup</h2>
+<div class="grid w-full grid-cols-1 gap-8 md:grid-cols-3">
+<div class="flex flex-col items-center gap-4 rounded-xl bg-beige-light p-8 text-center">
+<div class="text-5xl font-black text-primary/30">1</div>
+<h3 class="text-lg font-bold">Fold &amp; Insert</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Wash your hands. Find a comfortable position. Fold the cup (C-fold or punch-down) and gently insert it into your vagina, angled towards your tailbone.</p>
+</div>
+<div class="flex flex-col items-center gap-4 rounded-xl bg-beige-light p-8 text-center">
+<div class="text-5xl font-black text-primary/30">2</div>
+<h3 class="text-lg font-bold">Seal &amp; Wear</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Once inserted, the cup will pop open and create a light seal against the vaginal walls. You can run a finger around the base to ensure it's fully open. Wear for up to 12 hours.</p>
+</div>
+<div class="flex flex-col items-center gap-4 rounded-xl bg-beige-light p-8 text-center">
+<div class="text-5xl font-black text-primary/30">3</div>
+<h3 class="text-lg font-bold">Remove &amp; Clean</h3>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Wash your hands. Gently pinch the base of the cup to break the seal, then slowly pull it out. Empty the contents, rinse with water, and reinsert. Sterilize between cycles.</p>
+</div>
+</div>
+<div class="flex w-full grow rounded-xl bg-white @container py-3">
+<div class="w-full gap-2 overflow-hidden bg-white aspect-[2/1] flex">
+<div class="w-full bg-center bg-no-repeat bg-cover rounded-lg aspect-auto flex-1" data-alt="Illustration showing how to fold a menstrual cup." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCkXk1BjUO5zcYk5YOf_bhAq_CnzBope7-JdmblBEwSwibYjPhFMOu6kQQwUBJdU2uPNnctOQ8FXfprzut45dCDl_Jv2xCNPEuIs5VsLGyMkxwg5uSJIuDXJI49iUcgaaP-lEQWW3vraBsGOXTC686PBJvnVTLfHTGH8NRpqNfTEeKn8mmRUxaUpvb-klvQ70nLU7FFt4fv-IGFmZFNP_rKNrBQ3VRfEUFSHqGCmOHjIggDNhdFI0f1VTqkkpOMKXSohFbQH2Zo7w');"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24">
+<div class="mx-auto w-full max-w-3xl">
+<h2 class="text-center text-3xl font-bold leading-tight tracking-[-0.015em] pb-12 text-accent-coral">Frequently Asked Questions</h2>
+<div class="flex flex-col gap-4">
+<details class="group rounded-lg bg-background-light p-4 dark:bg-background-dark border border-primary/20">
+<summary class="flex cursor-pointer list-none items-center justify-between">
+<span class="text-md font-medium">How do I choose the right size?</span>
+<span class="transition group-open:rotate-180">
+<span class="material-symbols-outlined"> expand_more </span>
+</span>
+</summary>
+<p class="group-open:mt-4 text-sm text-subtle-light dark:text-subtle-dark">Most brands offer two sizes. A smaller size is typically for those under 30 or who haven't given birth vaginally. A larger size is for those over 30, with a heavier flow, or who have given birth vaginally. Always check the brand's specific sizing guide.</p>
+</details>
+<details class="group rounded-lg bg-background-light p-4 dark:bg-background-dark border border-primary/20">
+<summary class="flex cursor-pointer list-none items-center justify-between">
+<span class="text-md font-medium">Is it hard to insert and remove?</span>
+<span class="transition group-open:rotate-180">
+<span class="material-symbols-outlined"> expand_more </span>
+</span>
+</summary>
+<p class="group-open:mt-4 text-sm text-subtle-light dark:text-subtle-dark">There is a learning curve, but it gets easier with practice. Relaxing your pelvic muscles is key. Experimenting with different folding techniques and positions (like squatting) will help you find what's most comfortable for your body.</p>
+</details>
+<details class="group rounded-lg bg-background-light p-4 dark:bg-background-dark border border-primary/20">
+<summary class="flex cursor-pointer list-none items-center justify-between">
+<span class="text-md font-medium">Can I use a menstrual cup with an IUD?</span>
+<span class="transition group-open:rotate-180">
+<span class="material-symbols-outlined"> expand_more </span>
+</span>
+</summary>
+<p class="group-open:mt-4 text-sm text-subtle-light dark:text-subtle-dark">Yes, but it's best to consult your doctor first. Ensure you break the seal by pinching the base of the cup before removal to avoid dislodging the IUD. Some users also choose to have their IUD strings trimmed shorter by their healthcare provider.</p>
+</details>
+<details class="group rounded-lg bg-background-light p-4 dark:bg-background-dark border border-primary/20">
+<summary class="flex cursor-pointer list-none items-center justify-between">
+<span class="text-md font-medium">How do I clean my cup in a public restroom?</span>
+<span class="transition group-open:rotate-180">
+<span class="material-symbols-outlined"> expand_more </span>
+</span>
+</summary>
+<p class="group-open:mt-4 text-sm text-subtle-light dark:text-subtle-dark">It's simpler than it sounds. You can either carry a small water bottle into the stall to rinse it, or just wipe it clean with toilet paper and reinsert. You can give it a more thorough wash with soap and water when you get home.</p>
+</details>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24">
+<div class="rounded-xl bg-peach-light p-8 text-center md:p-12">
+<blockquote class="text-xl italic md:text-2xl">"Switching to a cup was a total game-changer for me. I feel more in tune with my body, I'm saving money, and I love that I'm not creating waste every month. I can't imagine ever going back!"</blockquote>
+<cite class="mt-6 block font-bold not-italic">— Sarah K.</cite>
+</div>
+</section>
+</div>
+</main>
+</div>
+</div>
+</body></html>
